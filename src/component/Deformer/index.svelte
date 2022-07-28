@@ -12,5 +12,5 @@ const tex = useTexture(src)
 <Mesh
 rotation={{ x: 0 }}
 geometry={planeGeo}
-material={new MeshBasicMaterial({ map:tex })}
+material={new MeshBasicMaterial({ map:tex, transparent:true })}
 />
